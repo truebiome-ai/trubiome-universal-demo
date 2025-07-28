@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { OpenAI } from "openai";
 import { motion, AnimatePresence } from "framer-motion";
-import getBrandConfig from "./brands";
-const brand = getBrandConfig(); // ← this will now default to "universal"
+import brand from "./brands/universal";
 import "./App.css";
 
 // 🔍 Match symptoms to product keywords using fuzzy matching
