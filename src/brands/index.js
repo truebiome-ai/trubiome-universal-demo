@@ -1,6 +1,4 @@
 // brands/index.js
-
-import biocidin from "./biocidin.js";
 import universal from "./universal.js";
 
 const brandMap = {
